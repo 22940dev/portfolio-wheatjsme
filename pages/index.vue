@@ -31,6 +31,12 @@
         </template>
         Check out my personal projects that I've been working on.
       </Card>
+      <Card label="Projects" to="/bookmarks">
+        <template #icon>
+          <ri-git-repository-line />
+        </template>
+        Just some of my favorite bookmarks.
+      </Card>
     </div>
   </div>
 </template>
